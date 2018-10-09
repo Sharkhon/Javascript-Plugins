@@ -1,0 +1,95 @@
+html {
+	
+}
+
+.time-picker {
+    position: absolute;
+    border: 1px solid ;
+    border-radius: .25em;
+    background-color: #f7f7f7;
+    height: 193px;
+    width: 185px;
+}
+
+.picker-row {
+    max-height: 120px;
+}
+
+.picker-col {
+    width: 60px;
+    height: 120px;
+    float: left;
+}
+
+.picker-button {
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+
+.picker-input {
+    display: block;
+    margin: auto;
+    width: 50px;
+
+    border: 1px solid #ced4da;
+    border-radius: .25em;
+    text-align: center;
+
+}
+
+.picker-col-interior {
+    display: block;
+    margin: auto;
+
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.period-picker {
+    display: block;
+    margin: auto;
+
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.submission-button {
+    width: 50%;
+    float: left;
+}
+
+.btn:hover {
+    background: rgb(168, 168, 168);
+}
+
+.picker-header {
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.period-picker {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.period-picker::-ms-expand {
+    display: none;
+}
+
+.time-input:read-only {
+    background: white;
+}
